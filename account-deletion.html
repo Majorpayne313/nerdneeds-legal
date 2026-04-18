@@ -1,22 +1,220 @@
-Account & Data Deletion – Nerd Needs
+```html id="6og6ed"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account & Data Deletion - Nerd Needs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
-Users can delete their Nerd Needs account and associated data in two ways:
+        body {
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #E8F4FD 0%, #F0E6FF 50%, #FFF0F5 100%);
+            min-height: 100vh;
+            color: #2D3748;
+            line-height: 1.7;
+        }
 
-Option 1: In-App
+        .header {
+            background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+        }
 
-Open Nerd Needs
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
 
-Go to Settings
+        .header h1 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
 
-Select Delete Account
+        .header p {
+            color: rgba(255,255,255,0.92);
+            font-size: 1.1em;
+            margin-top: 6px;
+        }
 
-Confirm deletion
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px;
+        }
 
-Option 2: Email Request
+        .policy-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 0 10px 40px rgba(139, 92, 246, 0.15);
+            border: 2px solid #F3E8FF;
+        }
 
-Send an email to fortunaimperiumholdings@gmail.com
- with the subject:
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #F3E8FF;
+        }
 
-Delete My Account
+        .section-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #8B5CF6, #EC4899);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
 
-Your account and associated data will be permanently deleted.
+        .section-header h2 {
+            color: #7C3AED;
+            font-size: 1.8em;
+            font-weight: 800;
+        }
+
+        h3 {
+            color: #8B5CF6;
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 700;
+        }
+
+        p { margin: 12px 0; }
+
+        ol, ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        ul li::marker,
+        ol li::marker {
+            color: #EC4899;
+            font-weight: 700;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #FEF3C7, #FFF0F5);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #F59E0B;
+            margin: 20px 0;
+        }
+
+        .highlight-box strong {
+            color: #D97706;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #E0E7FF, #F3E8FF);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .contact-box a {
+            color: #7C3AED;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            color: #EC4899;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #1F2937, #374151);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+
+        .footer-logo {
+            font-size: 1.5em;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            opacity: 0.85;
+            font-size: 0.95em;
+        }
+
+        .sparkles {
+            color: #EC4899;
+        }
+
+        @media (max-width: 600px) {
+            .policy-section { padding: 25px; }
+            .header h1 { font-size: 1.9em; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <span style="font-size: 40px;">👓</span>
+        </div>
+        <h1>Nerd Needs</h1>
+        <p><span class="sparkles">✨</span> Connect Through Shared Interests <span class="sparkles">✨</span></p>
+    </header>
+
+    <div class="container">
+        <section class="policy-section">
+            <div class="section-header">
+                <div class="section-icon">🗑️</div>
+                <h2>Account &amp; Data Deletion</h2>
+            </div>
+
+            <p>Users can delete their Nerd Needs account and associated data in two ways:</p>
+
+            <h3>Option 1: In-App</h3>
+            <ol>
+                <li>Open Nerd Needs</li>
+                <li>Go to <strong>Settings</strong></li>
+                <li>Select <strong>Delete Account</strong></li>
+                <li>Confirm deletion</li>
+            </ol>
+
+            <h3>Option 2: Email Request</h3>
+            <p>Send an email to <a href="mailto:fortunaimperiumholdings@gmail.com">fortunaimperiumholdings@gmail.com</a> with the subject:</p>
+
+            <div class="highlight-box">
+                <strong>Delete My Account</strong>
+            </div>
+
+            <p>Your account and associated data will be permanently deleted.</p>
+
+            <div class="contact-box">
+                <p>📧 Deletion Requests</p>
+                <a href="mailto:fortunaimperiumholdings@gmail.com">fortunaimperiumholdings@gmail.com</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-logo">👓 Nerd Needs</div>
+        <p>© 2025 Nerd Needs. All rights reserved.</p>
+        <p style="margin-top: 10px;"><span class="sparkles">✨</span> Built for community, conversation, and shared interests <span class="sparkles">✨</span></p>
+    </footer>
+</body>
+</html>
+```
