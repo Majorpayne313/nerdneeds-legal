@@ -1,69 +1,259 @@
-Privacy Policy – Nerd Needs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Nerd Needs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
-Last updated: [DATE]
+        body {
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #E8F4FD 0%, #F0E6FF 50%, #FFF0F5 100%);
+            min-height: 100vh;
+            color: #2D3748;
+            line-height: 1.7;
+        }
 
-Nerd Needs (“we,” “our,” or “us”) values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the Nerd Needs mobile application (“App”).
+        .header {
+            background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+        }
 
-Information We Collect
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
 
-We may collect:
+        .header h1 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
 
-Account information (email, username)
+        .header p {
+            color: rgba(255,255,255,0.92);
+            font-size: 1.1em;
+            margin-top: 6px;
+        }
 
-Profile information (photos, bio, preferences)
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px;
+        }
 
-Messages and content shared in the app
+        .policy-section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 0 10px 40px rgba(139, 92, 246, 0.15);
+            border: 2px solid #F3E8FF;
+        }
 
-Subscription and purchase information (processed by Apple or Google)
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #F3E8FF;
+        }
 
-Device and usage data (analytics, crash logs)
+        .section-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #8B5CF6, #EC4899);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
 
-Approximate location (country or city)
+        .section-header h2 {
+            color: #7C3AED;
+            font-size: 1.8em;
+            font-weight: 800;
+        }
 
-How We Use Information
+        .last-updated {
+            background: #F3E8FF;
+            color: #7C3AED;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
 
-We use information to:
+        h3 {
+            color: #8B5CF6;
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 700;
+        }
 
-Provide matching and messaging features
+        p { margin: 12px 0; }
 
-Manage accounts and subscriptions
+        ul {
+            margin: 15px 0 15px 25px;
+        }
 
-Improve app performance
+        li {
+            margin: 8px 0;
+        }
 
-Ensure safety and prevent abuse
+        ul li::marker {
+            color: #EC4899;
+        }
 
-Provide customer support
+        .highlight-box {
+            background: linear-gradient(135deg, #FEF3C7, #FFF0F5);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 5px solid #F59E0B;
+            margin: 20px 0;
+        }
 
-Payments
+        .highlight-box strong {
+            color: #D97706;
+        }
 
-Payments are processed by Apple App Store or Google Play. We do not store payment card details.
+        .contact-box {
+            background: linear-gradient(135deg, #E0E7FF, #F3E8FF);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 25px;
+        }
 
-Data Sharing
+        .contact-box a {
+            color: #7C3AED;
+            font-weight: 700;
+            text-decoration: none;
+        }
 
-We do not sell personal data. We may share data with:
+        .contact-box a:hover {
+            color: #EC4899;
+        }
 
-Service providers (analytics, hosting)
+        .footer {
+            background: linear-gradient(135deg, #1F2937, #374151);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
 
-Payment processors
+        .footer-logo {
+            font-size: 1.5em;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
 
-Legal authorities if required
+        .footer p {
+            opacity: 0.85;
+            font-size: 0.95em;
+        }
 
-Data Retention
+        .sparkles {
+            color: #EC4899;
+        }
 
-We keep data only as long as needed to operate the app or meet legal requirements.
+        @media (max-width: 600px) {
+            .policy-section { padding: 25px; }
+            .header h1 { font-size: 1.9em; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <span style="font-size: 40px;">👓</span>
+        </div>
+        <h1>Nerd Needs</h1>
+        <p><span class="sparkles">✨</span> Connect Through Shared Interests <span class="sparkles">✨</span></p>
+    </header>
 
-Account Deletion
+    <div class="container">
+        <section class="policy-section">
+            <div class="section-header">
+                <div class="section-icon">🔒</div>
+                <h2>Privacy Policy</h2>
+            </div>
 
-Users may delete their account and data at any time through the app or by contacting us.
+            <span class="last-updated">Last updated: [DATE]</span>
 
-Children
+            <p>Nerd Needs (“we,” “our,” or “us”) values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the Nerd Needs mobile application (“App”).</p>
 
-Nerd Needs is for users 18+ only.
+            <h3>Information We Collect</h3>
+            <p>We may collect:</p>
+            <ul>
+                <li><strong>Account information:</strong> email and username</li>
+                <li><strong>Profile information:</strong> photos, bio, interests, and preferences</li>
+                <li><strong>Messages and content:</strong> chats, posts, and other content shared in the app</li>
+                <li><strong>Subscription and purchase information:</strong> purchases processed by Apple or Google</li>
+                <li><strong>Device and usage data:</strong> analytics, crash logs, app activity, and device details</li>
+                <li><strong>Approximate location:</strong> such as country or city</li>
+            </ul>
 
-Security
+            <h3>How We Use Information</h3>
+            <p>We use information to:</p>
+            <ul>
+                <li>Provide community, messaging, and shared-interest features</li>
+                <li>Manage accounts and subscriptions</li>
+                <li>Improve app performance and user experience</li>
+                <li>Help maintain safety and prevent abuse</li>
+                <li>Provide customer support</li>
+            </ul>
 
-We use reasonable safeguards to protect user data.
+            <h3>Payments</h3>
+            <p>Payments are processed by Apple App Store or Google Play. We do not store payment card details.</p>
 
-Contact
+            <h3>Data Sharing</h3>
+            <p>We do not sell personal data. We may share data with:</p>
+            <ul>
+                <li>Service providers, such as analytics and hosting partners</li>
+                <li>Payment processors</li>
+                <li>Legal authorities if required by law</li>
+            </ul>
 
-Email: fortunaimperiumholdingsinc@gmail.com
+            <div class="highlight-box">
+                <strong>Important:</strong> We do not sell your personal information.
+            </div>
+
+            <h3>Data Retention</h3>
+            <p>We keep data only as long as needed to operate the app, provide services, or meet legal requirements.</p>
+
+            <h3>Account Deletion</h3>
+            <p>Users may delete their account and data at any time through the app or by contacting us.</p>
+
+            <h3>Children</h3>
+            <p>Nerd Needs is for users 18+ only.</p>
+
+            <h3>Security</h3>
+            <p>We use reasonable safeguards to protect user data.</p>
+
+            <div class="contact-box">
+                <p>📧 Contact</p>
+                <a href="mailto:fortunaimperiumholdingsinc@gmail.com">fortunaimperiumholdingsinc@gmail.com</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-logo">👓 Nerd Needs</div>
+        <p>© 2025 Nerd Needs. All rights reserved.</p>
+        <p style="margin-top: 10px;"><span class="sparkles">✨</span> Built for community, conversation, and shared interests <span class="sparkles">✨</span></p>
+    </footer>
+</body>
+</html>
